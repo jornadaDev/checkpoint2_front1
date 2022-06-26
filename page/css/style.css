@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: url(/img/fundo\ imagem\ site.jpg);
+  background-image: url(/page/img/fundo\ imagem\ site.jpg);
   background-position: right;
   font-family: "Roboto", sans-serif;
 }
@@ -49,7 +49,7 @@ a.look_menu-3 {
 }
 
 .look_menu {
-  background-image: url(/img/LaViolet.gif);
+  background-image: url(/page/img/LaViolet.gif);
   text-decoration-color: purple;
 }
 
