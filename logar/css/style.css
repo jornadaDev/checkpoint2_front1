@@ -140,21 +140,16 @@ button:hover{
     font-weight: bold;
 }
 
-footer #footer {
-  display: flex;
-  position: sticky;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 20px;
-  color: white;
-  z-index: 4;
-}
-#footer h2{
-  color: white;
-  padding: 20px;
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100vw;
+    margin-top: 100px;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
   font-family: "Arial", cursive;
-  font-size: 14px;
-  text-align: center;
-  background-color: black;
 }
+  
