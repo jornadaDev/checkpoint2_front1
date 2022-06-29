@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: black;
+  background-image: black;
   font-family: Arial, "Roboto", sans-serif;
 }
 
@@ -272,17 +272,32 @@ footer #footer {
   align-items: center;
   flex-wrap: wrap;
   padding: 20px;
-  background-color: black;
   color: white;
   z-index: 4;
 }
+  
 #footer h2{
   color: white;
+  background-color: black;
   padding: 20px;
   font-family: "Arial", cursive;
   font-size: 14px;
   text-align: center;
 }
+
+@media (min-width: 400px) and (max-width: 583px) {
+  #header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #header .menu-top , .menu-botao {
+   display: flex;
+   
+   
+  }
+}
+
 
 @media (max-width: 689px) {
   .desc{
