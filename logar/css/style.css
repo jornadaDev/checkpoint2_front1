@@ -51,7 +51,7 @@ a.menu-botao:hover {
   
   body {
     font-family: sans-serif;
-    background-image: url("../img/fundo\ imagem\ site.jpg");
+    background-image: url("../img/fundo\ imagem\ site.jpg ");
   }
   #logo {
     font-family: "Limelight", cursive;
@@ -141,7 +141,7 @@ button:hover{
 }
 
 
-.footer {
+/* .footer {
     background-color: black;
     color: white;
     text-align: center;
@@ -151,5 +151,5 @@ button:hover{
     position: absolute;
     bottom: 0;
   font-family: "Arial", cursive;
-}
+} */
   
